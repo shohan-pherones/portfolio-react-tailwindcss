@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Button from "../components/Button";
 
 const Hero = () => {
   return (
@@ -16,12 +16,7 @@ const Hero = () => {
           specializing in developing exceptional and unique projects. Currently,
           I'm focused on building interactive web applications.
         </p>
-        <Link
-          to="/contact"
-          className="bg-cyan-400/20 py-3 px-8 border border-cyan-400 rounded-sm hover:bg-cyan-400 hover:text-gray-900 font-medium duration-500 mt-3"
-        >
-          Let's talk
-        </Link>
+        <Button to="contact" text="Let's talk" />
       </div>
       <div className="hero-right flex-1 relative">
         <div className="hero-img w-3/5 h-4/5 absolute top-0 right-0 z-10 rounded-sm shadow-2xl">
