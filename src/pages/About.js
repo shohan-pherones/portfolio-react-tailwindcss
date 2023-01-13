@@ -10,7 +10,7 @@ const About = () => {
           <div className="about-img w-3/5 h-full absolute top-0 left-0 z-10 rounded-sm shadow-2xl">
             <img
               src="https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="Photo of Woman Taking Notes"
+              alt="Woman Taking Notes"
               className="w-full h-full object-cover grayscale brightness-75 rounded-sm"
             />
           </div>
