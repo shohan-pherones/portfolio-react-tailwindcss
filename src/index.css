@@ -8,6 +8,10 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 
+img {
+  -webkit-user-drag: none;
+}
+
 .link-item {
   position: relative;
 }

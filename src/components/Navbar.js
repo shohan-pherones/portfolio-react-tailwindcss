@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar container mx-auto h-20 flex justify-between items-center">
       <Link
         to="/"
-        className="logo font-medium text-cyan-400 hover:text-gray-50 duration-500"
+        className="logo font-medium text-cyan-400 hover:text-gray-300 duration-500"
       >
         tumpa_
       </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
         href="https://www.google.com"
         target="_blank"
         rel="noreferrer"
-        className="resume-btn bg-cyan-400/20 py-3 px-8 border border-cyan-400 rounded-sm hover:bg-cyan-400 hover:text-gray-900 font-medium duration-500"
+        className="bg-cyan-400/20 py-3 px-8 border border-cyan-400 rounded-sm hover:bg-cyan-400 hover:text-gray-900 font-medium duration-500"
       >
         Résumé
       </a>
